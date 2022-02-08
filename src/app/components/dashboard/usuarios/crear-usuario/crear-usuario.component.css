@@ -1,0 +1,18 @@
+.width {
+    width: 80%;
+}
+
+.img {
+    height: 50%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .img {
+        height: 20%;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+}

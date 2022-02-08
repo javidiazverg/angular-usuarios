@@ -1,0 +1,19 @@
+.dashboard {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img {
+    padding: 20px;
+    width: 30vh;
+}
+@media only screen and (max-width: 1024px) {
+    .dashboard {
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+    }
+}
